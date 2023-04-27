@@ -27,7 +27,7 @@ spec:
         carto.run/workload-name: hello-nodejs
     spec:
       containers:
-      - image: hirokimrepo.azurecr.io/tap150/workloads/hello-nodejs-demo@sha256:9dd51fa4f4e1241fb21f4ce9b12614108e8559adad782c8d253a20bf66db8f02
+      - image: hirokimrepo.azurecr.io/tap150/workloads/hello-nodejs-demo@sha256:d5348de62fff941260111aa8b5089fc672475b1afaea7cef035e33f10a792596
         name: workload
         resources: {}
         securityContext:
